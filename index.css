@@ -1,5 +1,5 @@
 body {
-  font-family: Meiryo;
+  font-family: Meiryo, sans-serif;
   color: #4c4c4c;
   line-height: 2rem;
 }
@@ -18,13 +18,19 @@ body {
 }
 
 .wrapper {
-  padding: 5rem 15%;
+  padding: 5rem 10%;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    padding: 5rem 15%;
+  }
 }
 
 #landing {
   height: 100vh;
   min-height: 37.5rem;
-  padding: 0 15%;
+  padding: 0 5%;
   background-image: url('./img/winter_blackcover.png');
   background-position: center;
   background-size: cover;
@@ -33,10 +39,22 @@ body {
 }
 
 #landing img {
-  height: 90vh;
+  height: auto;
+  width: 80vw;
+  margin-top: 3rem;
   min-height: 33.7rem;
-  margin-top: 5vh;
   object-fit: contain;
+}
+
+@media (min-width: 576px) {
+  #landing {
+    padding: 0 15%;
+  }
+
+  #landing img {
+    height: 80vh;
+    margin-top: 10vh;
+  }
 }
 
 #landing .btns {
@@ -124,7 +142,7 @@ body {
   z-index: 1;
   position: absolute;
   top: -2rem;
-  right: -2rem;
+  right: -1rem;
 }
 
 #yamanouchi #videoModal .close-btn:hover {
@@ -143,7 +161,12 @@ body {
   color: #02D3C5;
   border-radius: 50%;
   padding: 1rem;
-  margin: 0 3rem;
+}
+
+@media (min-width: 576px) {
+  #outline .icon {
+    margin: 0 3rem;
+  }
 }
 
 #outline .icon i {
