@@ -1,0 +1,172 @@
+body {
+  font-family: Meiryo;
+  color: #4c4c4c;
+  line-height: 2rem;
+}
+
+.text-deepblue {
+  color: #4c4c4c;
+}
+
+.title {
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.title i {
+  font-size: 3rem;
+}
+
+.wrapper {
+  padding: 5rem 15%;
+}
+
+#landing {
+  height: 100vh;
+  min-height: 37.5rem;
+  padding: 0 15%;
+  background-image: url('./img/winter_blackcover.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#landing img {
+  height: 90vh;
+  min-height: 33.7rem;
+  margin-top: 5vh;
+  object-fit: contain;
+}
+
+#landing .btns {
+  right: 1rem;
+  bottom: 1rem;
+}
+
+#landing .btn {
+  color: white;
+  width: 12rem;
+  padding: 1rem 0;
+  margin: 0.4rem;
+  border-radius: 0.2rem;
+}
+
+#landing .btns .btn.register-btn {
+  background-color: #02D3C5;
+  border: 0.2rem solid #02D3C5;
+}
+
+#landing .btns .btn.register-btn:hover {
+  background-color: #47aba4;
+  border-color: #47aba4;
+}
+
+#landing .btns .btn.more-btn {
+  box-sizing: border-box;
+  border: 0.2rem solid white;
+}
+
+#landing .btns .btn.more-btn:hover {
+  background-color: white;
+  color: #4c4c4c;
+}
+
+#concept .concept-content{
+  font-weight: bold;
+}
+
+#attraction {
+  background-image: url('./img/autumn.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#attraction .attraction-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.3rem;
+}
+
+#yamanouchi {
+  background-color: #4c4c4c;
+}
+
+#yamanouchi .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 0.1rem;
+  right: 0;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+
+#yamanouchi .thumbnail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+  color: transparent;
+  cursor: pointer;
+}
+
+#yamanouchi .thumbnail:hover {
+  color: white;
+  transition: 0.2s 0s linear;
+}
+
+#yamanouchi #videoModal .close-btn {
+  background: none;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.68);
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}
+
+#yamanouchi #videoModal .close-btn:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+#outline .outline-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+#outline .icon {
+  width: 5rem;
+  height: 5rem;
+  background-color: #EEEDEC;
+  color: #02D3C5;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0 3rem;
+}
+
+#outline .icon i {
+  font-size: 2.2rem;
+}
+
+#outline .arrow {
+  max-width: 7.5rem;
+}
+
+#outline i.arrow {
+  font-size: 1rem;
+}
+
+#outline .register-btn {
+  background-color: #02D3C5;
+  padding: 1rem 5rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#outline .register-btn:hover {
+  background-color: #47aba4;
+  text-decoration: none;
+}
