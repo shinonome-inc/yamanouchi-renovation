@@ -38,13 +38,12 @@ body {
 #landing {
   height: 100vh;
   min-height: 42rem;
-  padding: 0 5% 5rem;
+  padding: 0 5%;
 }
 
 #landing img {
   height: auto;
   width: 80vw;
-  margin-top: 3rem;
   min-height: 33.7rem;
   object-fit: contain;
 }
