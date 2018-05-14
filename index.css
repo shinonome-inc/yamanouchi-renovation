@@ -7,13 +7,12 @@ body {
 
 @media (max-width: 576px) {
   body::before {
-    background:url('./img/autumn.png') no-repeat left bottom;
+    background:url('./img/autumn.png') no-repeat center;
     background-size: cover;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    bottom: 0;
+    width: 115%;
+    height: 115%;
     content: "";
     z-index: -1;
   }
