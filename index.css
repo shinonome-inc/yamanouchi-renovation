@@ -2,6 +2,7 @@ body {
   font-family: Meiryo, sans-serif;
   color: #4c4c4c;
   line-height: 2rem;
+  min-width: 300px;
 }
 
 .text-deepblue {
@@ -29,10 +30,10 @@ body {
 
 #landing {
   height: 100vh;
-  min-height: 37.5rem;
+  min-height: 42rem;
   padding: 0 5%;
   background-image: url('./img/winter_blackcover.png');
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -53,6 +54,7 @@ body {
 
   #landing img {
     height: 80vh;
+    width: auto;
     margin-top: 10vh;
   }
 }
@@ -96,7 +98,7 @@ body {
 
 #attraction {
   background-image: url('./img/autumn.png');
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -183,7 +185,6 @@ body {
 
 #outline .register-btn {
   background-color: #02D3C5;
-  padding: 1rem 5rem;
   border-radius: 0.4rem;
   color: white;
   font-size: 1.2rem;
