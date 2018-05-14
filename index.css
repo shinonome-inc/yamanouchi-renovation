@@ -13,6 +13,7 @@ body {
     bottom: 0;
     width: 115%;
     height: 115%;
+    padding-bottom: 10rem;
     content: "";
     z-index: -1;
   }
