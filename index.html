@@ -1,10 +1,264 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>山ノ内町建築コンペ</title>
   </head>
   <body>
-    hogehoge
+    <div class="wrapper" id="landing">
+      <div class="d-flex">
+        <img src="./img/nagano.png" alt="山ノ内町建築コンペ">
+        <div class="col">
+          <div class="position-absolute text-right btns">
+            <a href="https://goo.gl/forms/COTW5nUhV8c9tZ542" target="_blank">
+              <div class="btn register-btn">
+                参加申し込みはコチラ
+              </div>
+            </a>
+            <div class="btn more-btn">
+              LEARN MORE
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper" id="concept" name="concept">
+      <div class="title">
+        <div class="text-center mb-3">
+          <i class="fa fa-home"></i>
+        </div>
+        <h2 class="text-center font-weight-bold">Concept</h2>
+      </div>
+      <div class="my-5 concept-content">
+        <p>
+          長野県北部にある山ノ内町には志賀高原と呼ばれる国立公園があり、1年を通して大自然が楽しめます。<br>
+          志賀高原だけでなく、スノーモンキーパークや温泉といった観光資源をもつ山ノ内町では現在、若者の観光客数が減少しているという問題を抱えています。
+        </p>
+        <p>
+          若者が山ノ内町に来て活動し、山ノ内町が盛り上がる。
+        </p>
+        <p>
+          そんな未来を作るために、コンペに参加する皆さんには<br>
+          若者に「非日常な体験」を提供できる、若者が集まる拠点ハウス
+          を考えていただきます。<br>
+          山ノ内町で過ごした人、過ごそうとしている人々が拠点ハウスにやってきて、いつもの毎日とは一味違う、素敵な時間を過ごす。<br>
+          そんな空間を作り出すハウスのアイデアを広く集めるために、学生リノベーションコンペを実施します。<br>
+        </p>
+      </div>
+    </div>
+    <div class="wrapper" id="attraction">
+      <div class="title">
+        <div class="text-center mb-3">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <h2 class="text-white text-center font-weight-bold">Attraction</h2>
+      </div>
+      <div class="my-5 px-5 py-5 text-white attraction-content">
+        <p>
+          本建築コンペでは、コンペで出たアイデアを元に実際に建物をリノベーションします。
+        </p>
+        <p>
+          リノベーションする対象の建物はコンペ合宿初日に参加者全員で見学し、そこからアイデアを練っていただきます。
+        </p>
+      </div>
+    </div>
+    <div class="wrapper" id="yamanouchi">
+      <div class="title">
+        <div class="text-center mb-3">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <h2 class="text-white text-center font-weight-bold">Yamanouchi Machi</h2>
+      </div>
+      <div class="row">
+        <p class="col-12 text-white">リノベーションする建物がある山ノ内町を紹介した写真や動画です。<br>写真、動画をクリックすると拡大・再生できます。</p>
+        <div class="col-4">
+          <div class="pt-3 pr-3 position-relative" data-toggle="video-modal" data-video="Uzt3snLkEcg">
+            <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3">
+              <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('http://img.youtube.com/vi/Uzt3snLkEcg/hqdefault.jpg')" >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pt-3 pr-3 position-relative" data-toggle="video-modal" data-video="UZn0aV5GfvI">
+            <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3">
+              <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('http://img.youtube.com/vi/UZn0aV5GfvI/hqdefault.jpg')" >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pt-3 pr-3 position-relative" data-toggle="video-modal" data-video="XYs2DhgMDOc">
+            <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3">
+              <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('http://img.youtube.com/vi/XYs2DhgMDOc/hqdefault.jpg')" >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content border-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe type="text/html"
+                class="embed-responsive-item"
+                src=""
+                frameborder="0"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper" id="outline">
+      <div class="title">
+        <div class="text-center mb-3">
+          <i class="fa fa-home text-deepblue"></i>
+        </div>
+        <h2 class="text-center text-deepblue font-weight-bold">Outline</h2>
+        <div class="d-flex flex-wrap">
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-calendar-alt"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  日程
+                </div>
+                <div>
+                  7、または8月にワークショップを開きます。<br>
+                  コンペ合宿は <br>
+                  2018年9月11日から2018年9月15日。
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-users"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  人数
+                </div>
+                <div>
+                  30名
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-yen-sign"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  参加費用
+                </div>
+                <div>
+                  ￥20,000程度<br>
+                  (補助金により変動します)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-check-circle"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  参加条件
+                </div>
+                <div>
+                  今年度も来年度も学生であること<br>
+                  建築学科が望ましい<br>
+                   (大学院に進学する学生も対象です)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-edit"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  宿泊先
+                </div>
+                <div>
+                  志賀高原 癒しの湯 幸の湯<br>
+                  詳細は<a href="http://sachinoyu.com/">こちら</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center icon">
+                <i class="fa fa-calendar-times"></i>
+              </div>
+              <div class="col font-weight-bold">
+                <div class="outline-title">
+                  募集締め切り
+                </div>
+                <div>
+                  2018年5月31日
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5 text-center">
+            <a href="https://goo.gl/forms/COTW5nUhV8c9tZ542" class="d-inline-block register-btn" target="_blank">
+              参加申し込みはコチラ
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <script type="text/javascript">
+    $(function(){
+      $("[data-toggle='video-modal']").on('click', function(){
+        $('#videoModal iframe').attr({'src': 'http://www.youtube.com/embed/'+ $(this).attr('data-video') +'?autoplay=1'});
+        $('#videoModal').modal('show');
+      })
+      $('#videoModal').on('hide.bs.modal', function(){
+        $('#videoModal iframe').attr({'src': ''});
+      })
+      $('.more-btn').on('click', function(){
+        var content_top = $("#concept").offset().top;
+        $('html,body').animate({ scrollTop: content_top }, 'cubic-bezier(0.68, -0.55, 0.27, 1.55)');
+      })
+    })
+  </script>
 </html>
