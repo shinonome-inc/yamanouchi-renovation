@@ -96,7 +96,7 @@ body {
   font-weight: bold;
 }
 
-#attraction {
+#architecture {
   background-image: url('./img/autumn.png');
   background-position: center bottom;
   background-size: cover;
@@ -104,7 +104,7 @@ body {
   background-attachment: fixed;
 }
 
-#attraction .attraction-content {
+#architecture .architecture-content {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0.3rem;
 }

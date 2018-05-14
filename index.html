@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper" id="concept" name="concept">
+    <div class="wrapper bg-white" id="concept" name="concept">
       <div class="title">
         <div class="text-center mb-3">
           <i class="fa fa-home"></i>
@@ -56,14 +56,14 @@
         </p>
       </div>
     </div>
-    <div class="wrapper" id="attraction">
+    <div class="wrapper" id="architecture">
       <div class="title">
         <div class="text-center mb-3">
           <i class="fa fa-home text-white"></i>
         </div>
-        <h2 class="text-white text-center font-weight-bold">Attraction</h2>
+        <h2 class="text-white text-center font-weight-bold">Architecture</h2>
       </div>
-      <div class="my-5 px-5 py-5 text-white attraction-content">
+      <div class="my-5 px-5 py-5 text-white font-weight-bold architecture-content">
         <p>
           本建築コンペでは、コンペで出たアイデアを元に実際に建物をリノベーションします。
         </p>
@@ -134,7 +134,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper" id="outline">
+    <div class="wrapper bg-white" id="outline">
       <div class="title">
         <div class="text-center mb-3">
           <i class="fa fa-home text-deepblue"></i>
@@ -255,8 +255,8 @@
       $('#videoModal').on('hide.bs.modal', function(){
         $('#videoModal iframe').attr({'src': ''});
       })
+      const content_top = $("#concept").offset().top;
       $('.more-btn').on('click', function(){
-        var content_top = $("#concept").offset().top;
         $('html,body').animate({ scrollTop: content_top }, 'cubic-bezier(0.68, -0.55, 0.27, 1.55)');
       })
     })
