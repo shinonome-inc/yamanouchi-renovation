@@ -13,7 +13,6 @@ body {
     bottom: 0;
     width: 115%;
     height: 115%;
-    padding-bottom: 10rem;
     content: "";
     z-index: -1;
   }
@@ -39,7 +38,7 @@ body {
 #landing {
   height: 100vh;
   min-height: 42rem;
-  padding: 0 5%;
+  padding: 0 5% 5rem;
 }
 
 #landing img {
