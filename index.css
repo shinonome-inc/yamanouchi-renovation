@@ -5,6 +5,20 @@ body {
   min-width: 300px;
 }
 
+@media (max-width: 576px) {
+  body::before {
+    background:url('./img/autumn.png') no-repeat left bottom;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+  }
+}
+
 .text-deepblue {
   color: #4c4c4c;
 }
@@ -22,21 +36,10 @@ body {
   padding: 5rem 10%;
 }
 
-@media (min-width: 576px) {
-  .wrapper {
-    padding: 5rem 15%;
-  }
-}
-
 #landing {
   height: 100vh;
   min-height: 42rem;
   padding: 0 5%;
-  background-image: url('./img/winter_blackcover.png');
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 #landing img {
@@ -45,18 +48,6 @@ body {
   margin-top: 3rem;
   min-height: 33.7rem;
   object-fit: contain;
-}
-
-@media (min-width: 576px) {
-  #landing {
-    padding: 0 15%;
-  }
-
-  #landing img {
-    height: 80vh;
-    width: auto;
-    margin-top: 10vh;
-  }
 }
 
 #landing .btns {
@@ -85,6 +76,7 @@ body {
 #landing .btns .btn.more-btn {
   box-sizing: border-box;
   border: 0.2rem solid white;
+  background-color: #00000066;
 }
 
 #landing .btns .btn.more-btn:hover {
@@ -165,12 +157,6 @@ body {
   padding: 1rem;
 }
 
-@media (min-width: 576px) {
-  #outline .icon {
-    margin: 0 3rem;
-  }
-}
-
 #outline .icon i {
   font-size: 2.2rem;
 }
@@ -193,4 +179,37 @@ body {
 #outline .register-btn:hover {
   background-color: #47aba4;
   text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    padding: 5rem 15%;
+  }
+
+  #landing {
+    padding: 0 15%;
+    background-image: url('./img/winter.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #landing img {
+    height: 80vh;
+    width: auto;
+    margin-top: 10vh;
+  }
+
+  #architecture {
+    background-image: url('./img/autumn.png');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #outline .icon {
+    margin: 0 3rem;
+  }
 }
