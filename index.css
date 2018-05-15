@@ -1,8 +1,13 @@
 body {
   font-family: Meiryo, sans-serif;
   color: #4c4c4c;
-  line-height: 2rem;
   min-width: 300px;
+}
+
+p {
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  padding: 1rem 0;
 }
 
 .text-deepblue {
@@ -37,6 +42,7 @@ body {
   width: 80vw;
   min-height: 33.7rem;
   object-fit: contain;
+  margin-top: 2rem;
 }
 
 #landing .btns {
@@ -75,6 +81,10 @@ body {
 
 #concept .concept-content{
   font-weight: bold;
+}
+
+#concept .concept-content strong {
+  font-size: 1.1rem;
 }
 
 #architecture {
@@ -134,19 +144,20 @@ body {
 #outline .outline-title {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 #outline .icon {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: #EEEDEC;
   color: #02D3C5;
   border-radius: 50%;
-  padding: 1rem;
+  margin: 0 1rem;
 }
 
 #outline .icon i {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
 
 #outline .arrow {
@@ -169,7 +180,16 @@ body {
   text-decoration: none;
 }
 
+#outline .caution {
+  font-size: 0.8rem;
+}
+
 @media (min-width: 576px) {
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
   .wrapper {
     padding: 5rem 15%;
   }
@@ -190,6 +210,6 @@ body {
   }
 
   #outline .icon {
-    margin: 0 3rem;
+    margin: 0 2rem;
   }
 }
