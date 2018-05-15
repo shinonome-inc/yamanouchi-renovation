@@ -8,9 +8,10 @@ body {
 @media only screen and (max-device-width: 1024px) {
   body::before {
     background:url('./img/autumn.png') no-repeat center;
-    background-size: auto;
+    background-size: auto 100%;
     position: fixed;
-    bottom: 0;
+    padding-top: 30px;
+    top: 0;
     width: 115%;
     height: 115%;
     min-height: 1000px;
