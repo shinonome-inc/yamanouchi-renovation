@@ -14,6 +14,10 @@ p {
   color: #4c4c4c;
 }
 
+.bg-deepblue {
+  background-color: #4c4c4c;
+}
+
 .title {
   margin-bottom: 3rem;
   font-weight: bold;
@@ -99,10 +103,6 @@ p {
   border-radius: 0.3rem;
 }
 
-#yamanouchi {
-  background-color: #4c4c4c;
-}
-
 #yamanouchi .icon {
   width: 2.5rem;
   height: 2.5rem;
@@ -182,6 +182,16 @@ p {
 
 #outline .caution {
   font-size: 0.8rem;
+}
+
+#organizers img {
+  width: 10rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+#organizers p {
+  font-size: 0.9rem;
 }
 
 @media (min-width: 576px) {
