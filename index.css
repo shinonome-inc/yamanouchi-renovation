@@ -1,5 +1,10 @@
+@@font-face {
+  font-family: 'jiyucho';
+  src: url('./fonts/Jiyucho.woff') format('woff');
+}
+
 body {
-  font-family: Meiryo, sans-serif;
+  font-family: "Rounded Mplus 1c", sans-serif;
   color: #4c4c4c;
   min-width: 300px;
 }
