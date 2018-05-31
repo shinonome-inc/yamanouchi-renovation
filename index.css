@@ -62,16 +62,6 @@ p {
   border-radius: 0.2rem;
 }
 
-#landing .btns .btn.register-btn {
-  background-color: #02D3C5;
-  border: 0.2rem solid #02D3C5;
-}
-
-#landing .btns .btn.register-btn:hover {
-  background-color: #47aba4;
-  border-color: #47aba4;
-}
-
 #landing .btns .btn.more-btn {
   box-sizing: border-box;
   border: 0.2rem solid white;
@@ -169,15 +159,10 @@ p {
 }
 
 #outline .register-btn {
-  background-color: #02D3C5;
+  background-color: #777777;
   border-radius: 0.4rem;
   color: white;
   font-size: 1.2rem;
-}
-
-#outline .register-btn:hover {
-  background-color: #47aba4;
-  text-decoration: none;
 }
 
 #outline .caution {
