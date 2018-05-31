@@ -1,5 +1,5 @@
 body {
-  font-family: Meiryo, sans-serif;
+  font-family: "Rounded Mplus 1c", sans-serif;
   color: #4c4c4c;
   min-width: 300px;
 }
@@ -24,7 +24,13 @@ p {
 }
 
 .title i {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+.title h2 {
+  font-size: 3.3rem;
+  font-family: 'Amatic SC', cursive;
+  margin-top: -0.5rem;
 }
 
 .wrapper {
@@ -134,7 +140,6 @@ p {
 #outline .outline-title {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
 }
 
 #outline .icon {
@@ -143,7 +148,7 @@ p {
   background-color: #EEEDEC;
   color: #02D3C5;
   border-radius: 50%;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 
 #outline .icon i {
@@ -205,6 +210,6 @@ p {
   }
 
   #outline .icon {
-    margin: 0 2rem;
+    margin: 0 0.5rem;
   }
 }
