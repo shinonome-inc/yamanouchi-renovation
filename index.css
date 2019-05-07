@@ -17,7 +17,9 @@ p {
 .bg-deepblue {
   background-color: #4c4c4c;
 }
-
+.bg-lightgray {
+  background-color: #F2F2F2;
+}
 .title {
   margin-bottom: 3rem;
   font-weight: bold;
@@ -37,7 +39,7 @@ p {
   padding: 5rem 10%;
 }
 
-#landing {
+#hero {
   height: 100vh;
   min-height: 42rem;
   padding: 0 5%;
@@ -47,7 +49,7 @@ p {
   background-repeat: no-repeat;
 }
 
-#landing img {
+#hero img {
   height: auto;
   width: 80vw;
   min-height: 33.7rem;
@@ -55,12 +57,12 @@ p {
   margin-top: 2rem;
 }
 
-#landing .btns {
+#hero .btns {
   right: 1rem;
   bottom: 1rem;
 }
 
-#landing .btn {
+#hero .btn {
   color: white;
   width: 12rem;
   padding: 1rem 0;
@@ -68,13 +70,13 @@ p {
   border-radius: 0.2rem;
 }
 
-#landing .btns .btn.more-btn {
+#hero .btns .btn.more-btn {
   box-sizing: border-box;
   border: 0.2rem solid white;
   background-color: #00000066;
 }
 
-#landing .btns .btn.more-btn:hover {
+#hero .btns .btn.more-btn:hover {
   background-color: white;
   color: #4c4c4c;
 }
@@ -164,10 +166,18 @@ p {
 }
 
 #outline .register-btn {
-  background-color: #777777;
+  background-color: #02D3C5;
   border-radius: 0.4rem;
   color: white;
   font-size: 1.2rem;
+  text-decoration: none
+}
+
+#outline .register-btn-end {
+  background-color: #777777;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  color: white;
 }
 
 #outline .caution {
@@ -184,6 +194,32 @@ p {
   font-size: 0.9rem;
 }
 
+#first .thumbnail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+  color: transparent;
+}
+
+#first .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 0.1rem;
+  right: 0;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+
+#first .thumbnail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+  color: transparent;
+  cursor: pointer;
+}
+
 @media (min-width: 576px) {
   p {
     font-size: 1rem;
@@ -194,12 +230,12 @@ p {
     padding: 5rem 15%;
   }
 
-  #landing {
+  #hero {
     padding: 0 15%;
     background-attachment: fixed;
   }
 
-  #landing img {
+  #hero img {
     height: 80vh;
     width: auto;
     margin-top: 10vh;

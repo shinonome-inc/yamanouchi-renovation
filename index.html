@@ -8,7 +8,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>山ノ内町建築コンペ</title>
     <meta name="description" content="
       自分たちの手で実際に家をリノベーションできる、学生向け建築コンペを長野県山ノ内町で開催します。
@@ -35,7 +34,8 @@
     <meta name="twitter:site" content="実際に家をリノベーションできる、学生向け建築コンペを長野県山ノ内町で開催します。">
 
     <link rel="shortcut icon" ype="image/vnd.microsoft.icon" href="./img/favicon.ico">
-
+    <!-- 画像拡大 -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet"> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -47,8 +47,8 @@
     <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>hogehoge</h1>
-    <div class="wrapper" id="landing">
+    <!-- landing -->
+    <section class="wrapper" id="hero">
       <div class="d-flex">
         <img src="./img/nagano.png" alt="山ノ内町建築コンペ">
         <div class="col">
@@ -59,8 +59,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="wrapper bg-white" id="concept" name="concept">
+    </section>
+
+    <!-- about -->
+    <section class="wrapper bg-white" id="concept" name="concept">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home"></i>
@@ -86,8 +88,10 @@
           本建築コンペは<strong>長野県元気づくり支援金事業</strong>です。詳細は<a href="https://www.pref.nagano.lg.jp/shinko/kensei/shichoson/shinko/shienkin/index.html">こちら</a>。
         </p>
       </div>
-    </div>
-    <div class="wrapper" id="architecture">
+    </section>
+
+    <!-- architecture -->
+    <section class="wrapper" id="architecture">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home text-white"></i>
@@ -103,8 +107,10 @@
           リノベーションする対象の建物は山ノ内町建築コンペの初日に参加者全員で見学します。
         </p>
       </div>
-    </div>
-    <div class="wrapper bg-deepblue" id="yamanouchi">
+    </section>
+
+    <!-- yamanouchimachi -->
+    <section class="wrapper bg-deepblue" id="yamanouchi">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home text-white"></i>
@@ -177,6 +183,7 @@
           </div>
         </div>
       </div>
+      <!-- これがクリックした時に出てくるアクション -->
       <div class="modal fade" id="photoModal" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
         <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
           <div class="modal-content border-0 p-0">
@@ -188,8 +195,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="wrapper bg-white" id="outline">
+    </section>
+
+    <!-- outline -->
+    <section class="wrapper bg-white" id="outline">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home text-deepblue"></i>
@@ -207,9 +216,9 @@
                 日程
               </div>
               <div>
-                7または8月にワークショップを開きます。<br>
-                コンペ合宿は <br>
-                2018年9月11日から2018年9月15日。
+                  8/5-10で調整してます。<br>
+                <!-- コンペ合宿は <br>
+                2018年9月11日から2018年9月15日。 -->
               </div>
             </div>
           </div>
@@ -224,7 +233,7 @@
                 人数
               </div>
               <div>
-                30名
+                45名
               </div>
             </div>
           </div>
@@ -239,7 +248,7 @@
                 参加費用
               </div>
               <div>
-                ￥20,000程度<br>
+                未定<br>
                 (補助金により変動します)
               </div>
             </div>
@@ -288,22 +297,169 @@
                 募集締め切り
               </div>
               <div>
-                2018年5月31日
+                未定
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 mt-5 mb-3 text-center">
-          <div class="d-inline-block px-3 px-sm-5 py-3 register-btn">
+          <!-- <div class="d-inline-block px-3 px-sm-5 py-3 register-btn-end">
             受付は終了しました
-          </div>
-        </div>
+          </div> -->
+          <a href="mailto:umiyama98@gmail.com" class="d-inline-block px-3 px-sm-5 py-3 register-btn">申し込みはこちらから</a>
+        </div> 
         <div class="col-12 font-weight-bold caution">
           ※申込者数が上限を超えた場合、ご参加をお断りする場合がございます。申し込み締切日の1、2日後に、申し込み時に入力していただくメールアドレス宛に参加可・不可の連絡をいたします。
         </div>
       </div>
-    </div>
-    <div class="wrapper bg-deepblue text-white" id="organizers">
+    </section>
+
+    <!-- first renovation -->
+    <section class="wrapper bg-lightgray" id="first">
+        <div class="title">
+          <div class="text-center">
+            <i class="fa fa-home text-deepblue"></i>
+          </div>
+          <h2 class="text-center text-whideepbluete">Last renovation</h2>
+        </div>
+        <div class="row">
+          <p class="col-12 text-deepblue">前回のリノベーションの様子です。<br>写真、動画をクリックすると拡大・再生できます。</p>
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="video-modal" data-video="CIOwhOv8cuU">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fab fa-youtube"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('https://img.youtube.com/vi/CIOwhOv8cuU/hqdefault.jpg')" >
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb1">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web1.jpg')" >
+                  <i class="fas fa-image"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="photoModalweb1" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
+              <div class="modal-content border-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="embed-responsive-item thumbnail" style="background-image: url('./img/web1.jpg')" >
+                  </div>
+                </div>
+                <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb2">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web2.jpg')" >
+                  <i class="fas fa-image"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="photoModalweb2" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
+              <div class="modal-content border-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="embed-responsive-item thumbnail" style="background-image: url('./img/web2.jpg')" >
+                  </div>
+                </div>
+                <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb3">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web3.jpg')" >
+                  <i class="fas fa-image"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="photoModalweb3" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
+              <div class="modal-content border-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="embed-responsive-item thumbnail" style="background-image: url('./img/web3.jpg')" >
+                  </div>
+                </div>
+                <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb4">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web4.jpg')" >
+                  <i class="fas fa-image"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="photoModalweb4" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
+              <div class="modal-content border-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="embed-responsive-item thumbnail" style="background-image: url('./img/web4.jpg')" >
+                  </div>
+                </div>
+                <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6 col-md-4">
+            <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb5">
+              <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web5.jpg')" >
+                  <i class="fas fa-image"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="photoModalweb5" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
+              <div class="modal-content border-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="embed-responsive-item thumbnail" style="background-image: url('./img/web5.jpg')" >
+                  </div>
+                </div>
+                <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- organizers -->
+    <section class="wrapper bg-deepblue text-white" id="organizers">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home text-white"></i>
@@ -312,26 +468,28 @@
       </div>
       <div class="d-flex flex-wrap justify-content-center">
         <div class="px-4 col-12 col-md-5 text-center">
-          <img src="./img/umiyama.jpg" alt="海山裕太">
+          <img src="./img/nagao.jpg" alt="長尾和樹">
           <div class="text-center font-weight-bold mt-3">
-            海山裕太
+            長尾 和樹
           </div>
           <p class="text-left">
-            参加者がスムーズに、そして楽しんで活動できるように頑張りたいと思います！
+            なにより面白い！もっと！と感じてもらえるよう頑張ります！
           </p>
         </div>
         <div class="px-4 col-12 col-md-5 text-center">
-          <img src="./img/ishiwata.jpg" alt="石渡萌生">
+          <img src="./img/suzuki.jpg" alt="鈴木啓大">
           <div class="text-center font-weight-bold mt-3">
-            石渡萌生
+            鈴木 啓大
           </div>
           <p class="text-left">
-            自分たちで考え、手を動かしてつくる楽しさを感じていただけたら嬉しいです！
+            大学の授業では学べないことを経験してもらえたら嬉しいです！
           </p>
         </div>
       </div>
-    </div>
-    <div class="wrapper" id="contact">
+    </section>
+
+    <!-- contact -->
+    <section class="wrapper bg-white" id="contact">
       <div class="title">
         <div class="text-center">
           <i class="fa fa-home"></i>
@@ -342,7 +500,7 @@
         お問い合わせは
         <a href="mailto:umiyama98@gmail.com">海山裕太(umiyama98@gmail.com)</a>まで
       </div>
-    </div>
+    </section>
   </body>
   <script type="text/javascript">
     $(function(){
