@@ -182,7 +182,7 @@
             <button type="button" class="btn close-btn" data-dismiss="modal">×</button>
           </div>
         </div>
-      </div>
+        </div>
       <!-- これがクリックした時に出てくるアクション -->
       <div class="modal fade" id="photoModal" tabindex="-1" role="dialog" aria-labelledby="photoModal" aria-hidden="true">
         <div class="modal-dialog modal-lg d-flex align-items-center h-100" role="document">
@@ -332,6 +332,18 @@
             <div class="embed-responsive embed-responsive-4by3">
               <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('https://img.youtube.com/vi/CIOwhOv8cuU/hqdefault.jpg')" >
                 <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="py-3 pr-3 position-relative" data-toggle="modal" data-target="#photoModalweb1">
+            <div class="d-flex justify-content-center align-items-center bg-white text-deepblue rounded-circle position-absolute icon">
+              <i class="fa fa-image"></i>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3">
+              <div class="d-flex justify-content-center align-items-center w-100 embed-responsive-item thumbnail" style="background-image: url('./img/web1.jpg')" >
+                <i class="fas fa-image"></i>
               </div>
             </div>
           </div>
@@ -492,7 +504,7 @@
   <script type="text/javascript">
     $(function(){
       $("[data-toggle='video-modal']").on('click', function(){
-        $('#videoModal iframe').attr({'src': 'http://www.youtube.com/embed/'+ $(this).attr('data-video') +'?autoplay=1'});
+        $('#videoModal iframe').attr({'src': 'http://www.youtube.com/embed/' + $(this).attr('data-video') + '?autoplay=1'});
         $('#videoModal').modal('show');
       })
       $('#videoModal').on('hide.bs.modal', function(){
